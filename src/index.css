@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #0a0d12;
+    --bg-card: #121721;
+    --border-card: #1e2638;
+    --accent-emerald: #10b981;
+    --accent-glow: rgba(16, 185, 129, 0.15);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #0a0d12;
+  color: #f8fafc;
+}
